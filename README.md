@@ -30,7 +30,8 @@ SSD,  divides an image into a grid, predicts bounding boxes and class scores for
 
 To get started with Sign Language Detection, follow these simple steps:
 
-- Clone the repository to your local machine.
+- Clone the repository to your local mac
+hine.
 
 - Install the required dependencies using `pip install`.
 
@@ -40,6 +41,19 @@ To get started with Sign Language Detection, follow these simple steps:
 <!--## Screenshots
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)-->
+## SSD Architecture
+It includes VGG-16 Architecture as initial layers. Adding Extra feature layers with skip connection to Detection heads( with each layer having different convolution )
+
+Now, Multibox detector detectes the presence & location of different class objects ( >8k per class )
+
+In final layer, NMS ( Non-Max Supression) is performed (i.e) Overlapping detection boxes are removed, and only highest IOU value box is kept for each detection.
+
+<img src="https://github.com/ankursinghbisht/Real-Time-Sign_Language_Detector/assets/112644477/36dc9b64-f4de-4f50-90b6-429fc63eedab" alt="SSD Architecture" />
+
+### Alternate Architecture
+<img src="https://github.com/ankursinghbisht/Real-Time-Sign_Language_Detector/assets/112644477/3d26ae19-fc94-46e7-93ea-fcb1c5a9a3ae" alt="Alternate Architecture" >
+<img src="https://github.com/ankursinghbisht/Real-Time-Sign_Language_Detector/assets/112644477/85263b58-6056-4bcd-b562-a1f5cdefb458" alt="Feature Extraction" width="500"/>
+<img src="https://github.com/ankursinghbisht/Real-Time-Sign_Language_Detector/assets/112644477/7929b1be-60f4-4214-b497-079e64a79b2c" alt="Multibox Detector" width="500"/>
 
 
 ## 🔗 Links
