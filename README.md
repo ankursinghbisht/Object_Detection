@@ -38,9 +38,8 @@ hine.
 - Execute the file " __4. Model Deployment.ipynb__"
 
     
-<!--## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)-->
+
 ## SSD Architecture
 It includes VGG-16 Architecture as initial layers. Adding Extra feature layers with skip connection to Detection heads( with each layer having different convolution )
 
@@ -55,6 +54,16 @@ In final layer, NMS ( Non-Max Supression) is performed (i.e) Overlapping detecti
 <img src="https://github.com/ankursinghbisht/Real-Time-Sign_Language_Detector/assets/112644477/85263b58-6056-4bcd-b562-a1f5cdefb458" alt="Feature Extraction" width="500"/>
 <img src="https://github.com/ankursinghbisht/Real-Time-Sign_Language_Detector/assets/112644477/7929b1be-60f4-4214-b497-079e64a79b2c" alt="Multibox Detector" width="500"/>
 
+### Feature Pyramid Network
+Deep layers hold meaningful information about image and intital layers contains details of images. To bridge this gap, we use __Feature Pyramid Network__ (FPN)
+We find semantics ( meaningful insights) and upsample back to higher resolution feature map.
+<img src="https://github.com/ankursinghbisht/Real-Time-Sign_Language_Detector/assets/112644477/0c3e9776-3675-457d-91d5-2a59bf14296a" alt="FPN" width= "500" />
+<img src="https://github.com/ankursinghbisht/Real-Time-Sign_Language_Detector/assets/112644477/9c10ed8d-94f2-4d20-b94f-a20f21f851c3" alt="FPN" width= "400"  />
+
+
+<!--## Screenshots
+
+!<img src="" alt="image" width= "100" />-->
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/ankursinghbisht?tab=repositories)
