@@ -57,13 +57,18 @@ In final layer, NMS ( Non-Max Supression) is performed (i.e) Overlapping detecti
 ### Feature Pyramid Network
 Deep layers hold meaningful information about image and intital layers contains details of images. To bridge this gap, we use __Feature Pyramid Network__ (FPN)
 We find semantics ( meaningful insights) and upsample back to higher resolution feature map.
+
 <img src="https://github.com/ankursinghbisht/Real-Time-Sign_Language_Detector/assets/112644477/0c3e9776-3675-457d-91d5-2a59bf14296a" alt="FPN" width= "500" />
 <img src="https://github.com/ankursinghbisht/Real-Time-Sign_Language_Detector/assets/112644477/9c10ed8d-94f2-4d20-b94f-a20f21f851c3" alt="FPN" width= "400"  />
 
 
-<!--## Screenshots
+## Losses
 
-!<img src="" alt="image" width= "100" />-->
+<img src="https://github.com/ankursinghbisht/Real-Time-Sign_Language_Detector/assets/112644477/d8b3f9ff-83c2-48a1-b142-eacf4369383c" alt="classification_loss" width= "600" />
+<img src="https://github.com/ankursinghbisht/Real-Time-Sign_Language_Detector/assets/112644477/a92baf6e-6d12-4b69-865f-d6d764df25e7" alt="localization_loss" width= "600" />
+<img src="https://github.com/ankursinghbisht/Real-Time-Sign_Language_Detector/assets/112644477/0a412d4a-980f-49af-88ba-76e55fbd2207" alt="total_loss" width= "600" />
+
+
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/ankursinghbisht?tab=repositories)
