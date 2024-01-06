@@ -3,10 +3,15 @@
 
 
 Real-time sign language detection model with __face detection__, identifying gestures like ThumbsUp', 'Love', 'Hello', 'ThankYou', 'Yes', 'No', and 'Victory'.
+
+<img src="https://github.com/ankursinghbisht/Real-Time-Sign_Language_Detector/assets/112644477/1d7da493-5a34-4d08-ba46-b5f1786dcef3" alt="Title" width= "600" />
+<img src="https://github.com/ankursinghbisht/Real-Time-Sign_Language_Detector/assets/112644477/95a036b5-4515-47e5-84a8-d92eee5036d6" alt="Detections" width= "400" />
+
+
+
 ## Introduction
 
 A real-time communication model based on SSD MobileNet V2. It efficiently detects faces and interprets common sign languages like 'ThumbsUp,' 'Love,' 'Hello,' 'ThankYou,' 'Yes,' 'No,' and 'Victory.' Trained with personalized data, SignSense is a practical and reliable tool for enhanced gesture recognition.
-
 
 
 ## About SSD MobileNet V2
@@ -36,9 +41,6 @@ hine.
 - Install the required dependencies using `pip install`.
 
 - Execute the file " __4. Model Deployment.ipynb__"
-
-    
-
 
 ## SSD Architecture
 It includes VGG-16 Architecture as initial layers. Adding Extra feature layers with skip connection to Detection heads( with each layer having different convolution )
