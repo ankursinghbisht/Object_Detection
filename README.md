@@ -31,6 +31,8 @@ SSD,  divides an image into a grid, predicts bounding boxes and class scores for
 - _SSD MobileNet V2 Architecture_: The project employs a reliable object detection framework, balancing accuracy and speed.
 
 - _Custom Dataset Training_: Fine-tuned with a personalized dataset for improved performance.
+
+  
 ## Usage Instructions:
 
 To get started with Sign Language Detection, follow these simple steps:
@@ -41,6 +43,8 @@ hine.
 - Install the required dependencies using `pip install`.
 
 - Execute the file " __4. Model Deployment.ipynb__"
+
+
 
 ## SSD Architecture
 It includes VGG-16 Architecture as initial layers. Adding Extra feature layers with skip connection to Detection heads( with each layer having different convolution )
@@ -71,6 +75,16 @@ We find semantics ( meaningful insights) and upsample back to higher resolution 
 <img src="https://github.com/ankursinghbisht/Real-Time-Sign_Language_Detector/assets/112644477/0a412d4a-980f-49af-88ba-76e55fbd2207" alt="total_loss" width= "600" />
 
 
+## Detections
+
+<img src="https://github.com/ankursinghbisht/Real-Time-Sign_Language_Detector/assets/112644477/f23ef967-52b1-4601-a39a-5788dd826ae6" alt="face" width= "330" />
+<img src="https://github.com/ankursinghbisht/Real-Time-Sign_Language_Detector/assets/112644477/74771e71-68be-4b41-8299-d1932a852138" alt="hello" width= "330" />
+<img src="https://github.com/ankursinghbisht/Real-Time-Sign_Language_Detector/assets/112644477/bcc1dc93-ff1e-4165-9518-fc79024f4119" alt="love" width= "330" />
+<img src="https://github.com/ankursinghbisht/Real-Time-Sign_Language_Detector/assets/112644477/600d7e6a-8e59-4bb2-bfb8-5656404f417e" alt="no" width= "330" />
+<img src="https://github.com/ankursinghbisht/Real-Time-Sign_Language_Detector/assets/112644477/0767bf83-95c7-4e1e-88ea-e2c16e03bd11" alt="thankyou" width= "330" />
+<img src="https://github.com/ankursinghbisht/Real-Time-Sign_Language_Detector/assets/112644477/1c69fb45-501e-4692-9780-62cc60f4cd22" alt="thumbsup" width= "330" />
+<img src="https://github.com/ankursinghbisht/Real-Time-Sign_Language_Detector/assets/112644477/e76da2a6-7c11-4b97-8c01-294dd199c341" alt="victory" width= "330" />
+<img src="https://github.com/ankursinghbisht/Real-Time-Sign_Language_Detector/assets/112644477/1a77da63-a48d-480b-b399-0c58b81cdd92" alt="yes" width= "330" />
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/ankursinghbisht?tab=repositories)
